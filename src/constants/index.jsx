@@ -59,7 +59,7 @@ export const SONGS = [
     youtube: "https://www.youtube.com/watch?v=dTHrZecGgRw",
   },
   {
-    id: 5,
+    id: 7,
     name: "Гняв || Блъф 2",
     image: song7,
     youtube: "https://www.youtube.com/watch?v=OidKkMehc-U",

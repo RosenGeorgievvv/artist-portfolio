@@ -1,4 +1,4 @@
-import { SOCIAL_MEDIA_LINKS } from "../constants";
+import { SOCIAL_MEDIA_LINKS } from "../constants/index";
 import {motion} from 'framer-motion';
 
 const Footer = () => {

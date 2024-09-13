@@ -1,5 +1,5 @@
 import React from 'react';
-import { HERO } from '../constants';
+import { HERO } from '../constants/index';
 import profile from '../assets/profile.png';
 import {motion} from 'framer-motion';
 

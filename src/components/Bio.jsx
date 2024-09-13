@@ -1,4 +1,4 @@
-import { BIO } from "../constants"
+import { BIO } from "../constants/index"
 import {motion} from 'framer-motion';
 
 const Bio = () => {
