@@ -1,17 +1,13 @@
 import { FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 
-import pizzaProject from "../assets/pizza.png";
-import cameraProject from "../assets/camera.png";
-import movieProject from "../assets/movie.png";
-import quizProject from "../assets/quiz.png";
-import movies from "../assets/movies.png";
-
-import { RiReactjsLine } from "react-icons/ri";
-import { TbBrandNextjs } from "react-icons/tb";
-import { SiJavascript, SiMongodb } from "react-icons/si";
-import { FaNodeJs } from "react-icons/fa";
-import { IoLogoFirebase } from "react-icons/io5";
+import song1 from "../assets/song1.png";
+import song2 from "../assets/song2.png";
+import song3 from "../assets/song3.png";
+import song4 from "../assets/song4.png";
+import song5 from "../assets/song5.png";
+import song6 from "../assets/song6.png";
+import song7 from "../assets/song7.png";
 
 export const NAVIGATION_LINKS = [
   { label: "Songs", href: "#songs" },
@@ -27,47 +23,45 @@ export const HERO = {
 export const SONGS = [
   {
     id: 1,
-    name: "Camera Rental",
-    description:
-      "A freelance demo project for a customer, built with React and Firebase. ",
-    image: cameraProject,
-    githubLink: "https://github.com/RosenGeorgievvv/camera-rental",
-    demoLink: "https://camera-rental.vercel.app",
+    name: "Гледай Как/ Sieh Mal",
+    image: song1,
+    youtube: "https://www.youtube.com/watch?v=hVM2p0eJ97Q",
   },
   {
     id: 2,
-    name: "Movie Magic",
-    description:
-      "A movie library website built with ExpressJS to show my skill with the technology. Variety of functionalities. Try it!",
-    image: movies,
-    githubLink: "https://github.com/RosenGeorgievvv/Movie-Magic",
+    name: "WOW",
+    image: song2,
+    youtube: "https://www.youtube.com/watch?v=a70C_TcO5bo",
   },
   {
     id: 3,
-    name: "Movie World",
-    description:
-      "MovieWorld is a dynamic web application designed for movie enthusiasts.",
-    image: movieProject,
-    githubLink: "https://github.com/RosenGeorgievvv/MovieWorld",
-    demoLink: "https://movie-world-rosy.vercel.app",
+    name: "Не Питай Как",
+    image: song3,
+    youtube: "https://www.youtube.com/watch?v=GpYZqyvH2D4",
   },
   {
     id: 4,
-    name: "Slice Heaven",
-    description:
-      "SliceHeaven is a modern web application designed to provide users with a seamless and interactive experience for browsing and ordering pizzas.",
-    image: pizzaProject,
-    githubLink: "https://github.com/RosenGeorgievvv/SliceHeaven",
-    demoLink: "https://slice-heaven.vercel.app",
+    name: "SGAFIL",
+    image: song4,
+    youtube: "https://www.youtube.com/watch?v=LqOb5zkEAZw",
   },
   {
     id: 5,
-    name: "Quizzy",
-    description:
-      "Quizzy is an interactive quiz application designed to provide an engaging platform for users to test their knowledge across various topics.",
-    image: quizProject,
-    githubLink: "https://github.com/RosenGeorgievvv/Quizzy",
-    demoLink: "https://quizzy-inky.vercel.app",
+    name: "Дилема",
+    image: song5,
+    youtube: "https://www.youtube.com/watch?v=vMmN12BOCW8",
+  },
+  {
+    id: 6,
+    name: "Fuck 'Em All",
+    image: song6,
+    youtube: "https://www.youtube.com/watch?v=dTHrZecGgRw",
+  },
+  {
+    id: 5,
+    name: "Гняв || Блъф 2",
+    image: song7,
+    youtube: "https://www.youtube.com/watch?v=OidKkMehc-U",
   },
 ];
 
