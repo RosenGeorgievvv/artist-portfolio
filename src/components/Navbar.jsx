@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { NAVIGATION_LINKS } from "../constants/index";
 import { FaTimes } from "react-icons/fa";
 import { FaBars } from "react-icons/fa6";
+import logo from "../assets/logo.jpg";
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -30,14 +31,19 @@ const Navbar = () => {
     <div>
       <nav className="fixed left-0 right-0 top-4 z-50">
         {/* Desktop Menu */}
-        <div className="mx-auto hidden max-w-2xl items-center justify-center rounded-lg border border-stone-50/30 bg-black/20 py-3 backdrop-blur-lg lg:flex">
+        <div className="mx-auto hidden max-w-2xl items-center justify-center rounded-lg border border-stone-50/30 bg-black/20 py-2 backdrop-blur-lg lg:flex">
           <div className="flex items-center justify-between gap-6">
             <div>
-              <ul className="flex items-center gap-6">
+              <ul className="flex items-center gap-8">
+                <div>
+                  <a href="#">
+                    <img src={logo} width={30} alt="logo" />
+                  </a>
+                </div>
                 {NAVIGATION_LINKS.map((item, index) => (
                   <li key={index}>
                     <a
-                      className="text-sm hover:text-green-400"
+                      className="text-sm hover:text-red-600"
                       href={item.href}
                       onClick={(e) => handleLinkClick(e, item.href)}
                     >
@@ -52,6 +58,11 @@ const Navbar = () => {
         {/* Mobile Menu */}
         <div className="rounded-lg backdrop-blur-md lg:hidden ">
           <div className="flex items-center justify-between">
+            <div>
+              <a href="#">
+                <img src={logo} alt="logo" width={25} className="m-2" />
+              </a>
+            </div>
             <div className="flex items-center">
               <button
                 className="focus:outline-none lg:hidden"

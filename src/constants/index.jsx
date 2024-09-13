@@ -9,8 +9,8 @@ import song6 from "../assets/song6.png";
 import song7 from "../assets/song7.png";
 
 export const NAVIGATION_LINKS = [
-  { label: "Songs", href: "#songs" },
   { label: "Bio", href: "#bio" },
+  { label: "Songs", href: "#songs" },
 ];
 
 export const HERO = {

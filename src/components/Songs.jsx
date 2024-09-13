@@ -9,11 +9,11 @@ const Songs = () => {
         initial={{ opacity: 0, y: -20 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
-        className="mb-8 text-center text-3xl lg:text-4xl"
+        className="mb-20 text-center text-3xl lg:text-5xl"
       >
         Songs
       </motion.h2>
-      <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
+      <div className="grid grid-cols-1 gap-20 md:grid-cols-2 lg:grid-cols-3">
         {SONGS.map((song) => (
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
@@ -35,7 +35,7 @@ const Songs = () => {
                   href={song.youtube}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center rounded-full bg-white px-4 py-2 text-black hover:bg-green-300"
+                  className="flex items-center rounded-full bg-white px-4 py-2 text-black hover:bg-red-600"
                 >
                   <span>Listen</span>
                   <MdArrowOutward />
