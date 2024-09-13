@@ -15,9 +15,11 @@ export const NAVIGATION_LINKS = [
 
 export const HERO = {
   name: "GOGATA",
-  description:
-    "Born July 29, 1999 and raised in Pleven City, Storgozia Hood, GOGATA is a Bulgarian rap artist who started doing music at the age of 15 and has been active till now.He alwways wanted his city and neighborhood to be sung in a rap song.This is exactly why he created his YouTube channel - GOGATA064. Go check it out!",
 };
+
+export const BIO = [
+    "Born July 29, 1999 and raised in Pleven City, Storgozia Hood, GOGATA is a Bulgarian rap artist who started doing music at the age of 15 and has been active till now.He alwways wanted his city and neighborhood to be sung in a rap song.This is exactly why he created his YouTube channel - GOGATA064. Go check it out!"
+  ];
 
 export const SONGS = [
   {
