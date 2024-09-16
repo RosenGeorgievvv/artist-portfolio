@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { NAVIGATION_LINKS } from "../constants/index";
 import { FaTimes } from "react-icons/fa";
 import { FaBars } from "react-icons/fa6";
-import logo from "../assets/logo.jpg";
+import logo from "../assets/micro.png";
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
