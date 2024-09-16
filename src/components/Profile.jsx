@@ -30,7 +30,7 @@ const Main = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 1 }}
           src={profile}
-          width={700} // Adjust size to fit well below the text
+          width={700} 
           height={700}
           alt="GOGATA"
           className="rounded-2xl"
