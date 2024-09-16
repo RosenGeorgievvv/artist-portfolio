@@ -23,7 +23,7 @@ const Navbar = () => {
         top: offsetPosition,
         behavior: "smooth",
       });
-    }  
+    }   
     setIsMobileMenuOpen(false);
   };
 
